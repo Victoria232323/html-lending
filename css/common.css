@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
 :root{
     --headlines_color: #313053;
+    --hover_color: rgb(235 148 207);
+}
+
+img{
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    height: 40%;
+    width: 40%;
 }
 
 h1{
@@ -43,4 +52,31 @@ h5{
 
 .button_link{
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--headlines_color);
+    font-family: Poppins, serif;
 }
+
+a{
+    text-decoration: none;
+    color:#313053;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--headlines_color);
+    font-family: Poppins, serif;
+}
+
+a:hover{
+    color: var(--hover_color);
+}
+
+.button_link:hover{
+    color: var(--hover_color);
+}
+
+.icons{
+    height: 36px;
+    width: 36px;
+}
+

@@ -1,0 +1,34 @@
+.logo{
+    width: 221px;
+    height: 85,47px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+li{
+    padding: 8px;
+}
+
+.header_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+header{
+    
+    position: relative;
+}
